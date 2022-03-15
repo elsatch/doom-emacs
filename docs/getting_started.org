@@ -310,6 +310,10 @@ to least recommended for Doom (based on compatibility).
   brew install emacs
   #+END_SRC
 
+#+begin_quote
+Note: The default location for Homebrew installations is different for Apple Silicon Macs (like M1). To link the application to the new default Homebrew location you need to do: ~ln -s /opt/homebrew/opt/emacs-mac/Emacs.app /Applications~. For additional ways to link the app, check the [emacs-mac port documentation](https://github.com/railwaycat/homebrew-emacsmacport/wiki/Alternative-way-of-place-Emacs.app-to-Applications-directory)
+#+end_quote
+
 ***** Where *not* to install Emacs from
 These builds/forks have known compatibility issues with Doom and are *very
 likely* to cause issues later on. They are not recommended:
